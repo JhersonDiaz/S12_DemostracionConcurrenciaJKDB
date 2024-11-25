@@ -16,7 +16,7 @@ namespace DemoConcu_Jherson_Kelvin_Diaz_Bravo
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmRestaurante());
+            Application.Run(new FrmPatronSingleton());
         }
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="FrmGestionBloqueos.Designer.cs">
       <DependentUpon>FrmGestionBloqueos.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmPatronSingleton.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPatronSingleton.Designer.cs">
+      <DependentUpon>FrmPatronSingleton.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmRestaurante.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,11 +72,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
     <EmbeddedResource Include="FrmDemoConcurrencia.resx">
       <DependentUpon>FrmDemoConcurrencia.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGestionBloqueos.resx">
       <DependentUpon>FrmGestionBloqueos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPatronSingleton.resx">
+      <DependentUpon>FrmPatronSingleton.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRestaurante.resx">
       <DependentUpon>FrmRestaurante.cs</DependentUpon>
